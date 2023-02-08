@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
-import { DiJqueryUiLogo } from 'react-icons/di';
-// import {FaTimes} from 'react-icons/fa'
+
+
 
 const Navbar = () => {
 
@@ -15,8 +15,7 @@ const Navbar = () => {
       <nav className="navbar">
         <div className="nav-container">
           <NavLink exact to="/" className="nav-logo">
-            CodeBucks
-            <DiJqueryUiLogo/>
+          Sourav
           </NavLink>
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>
@@ -43,11 +42,31 @@ const Navbar = () => {
             <li className="nav-item">
               <NavLink
                 exact
+                to="/videos"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Videos
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/work"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Work
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
                 to="/blogs"
                 className="nav-links"
                 onClick={handleClick}
               >
-                Blog
+                Blogs
               </NavLink>
             </li>
             <li className="nav-item">
