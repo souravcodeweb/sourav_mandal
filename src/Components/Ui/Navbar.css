@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Sassy+Frass&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 .navbar {
     background-color: #fff;
     height: 80px;
@@ -31,7 +30,7 @@
     font-size: 3rem;
     flex-grow: 1;
     font-weight: bold;
-    font-family: 'Sassy Frass', cursive;
+    font-family: 'Itim', cursive;
   }
   
   .nav-menu {
