@@ -24,7 +24,6 @@ const Navbar = () => {
               <NavLink
                 exact
                 to="/"
-                activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
               >
@@ -35,7 +34,6 @@ const Navbar = () => {
               <NavLink
                 exact
                 to="/about"
-                activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
               >
@@ -45,8 +43,7 @@ const Navbar = () => {
             <li className="nav-item">
               <NavLink
                 exact
-                to="/blog"
-                activeClassName="active"
+                to="/blogs"
                 className="nav-links"
                 onClick={handleClick}
               >
@@ -57,11 +54,10 @@ const Navbar = () => {
               <NavLink
                 exact
                 to="/contact"
-                activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
               >
-                Contact Us
+                Contact
               </NavLink>
             </li>
           </ul>
