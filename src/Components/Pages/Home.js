@@ -24,21 +24,11 @@ const Home = () => {
            {data.about}
           </p>
           <div class="socil-links">
-            <a href="#">
-             <BsTwitter/>
-            </a>
-            <a href="https://www.linkedin.com/in/souravcode/">
-              <FaLinkedinIn/>
-            </a>
-            <a href="#">
-              <AiOutlineInstagram/>
-            </a>
-            <a href="#">
-              <FaYoutube/>
-            </a>
-            <a href="#">
-              <AiFillGithub/>
-            </a>
+              <a target="_blank" href="#"><BsTwitter/></a>
+              <a target="_blank" href="#"><FaLinkedinIn/></a>
+              <a target="_blank" href="#"><AiOutlineInstagram/></a>
+              <a target="_blank" href="#"><FaYoutube/></a>
+              <a target="_blank" href="#"><AiFillGithub/></a>
           </div>
           <div class="btn">
             <a href="./images/SouravMandal_Resume.pdf" download>
