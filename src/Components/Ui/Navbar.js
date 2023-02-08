@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 import { DiJqueryUiLogo } from 'react-icons/di';
-import {FaTimes} from 'react-icons/fa'
+// import {FaTimes} from 'react-icons/fa'
 
 const Navbar = () => {
 
