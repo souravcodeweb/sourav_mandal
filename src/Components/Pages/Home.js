@@ -6,6 +6,7 @@ import {FaLinkedinIn} from "react-icons/fa";
 import {AiOutlineInstagram} from "react-icons/ai";
 import {FaYoutube} from "react-icons/fa";
 import {AiFillGithub} from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 const data = {
   mes: "Hello I'M",
@@ -24,11 +25,16 @@ const Home = () => {
            {data.about}
           </p>
           <div class="socil-links">
-              <a target="_blank" href="#"><BsTwitter/></a>
+            <Link to="#"><BsTwitter/></Link>
+            <Link to="#"><FaLinkedinIn/></Link>
+            <Link to="#"><AiOutlineInstagram/></Link>
+            <Link to="#"><FaYoutube/></Link>
+            <Link to="#"><AiFillGithub/></Link>
+              {/* <a target="_blank" href="#"></a>
               <a target="_blank" href="#"><FaLinkedinIn/></a>
               <a target="_blank" href="#"><AiOutlineInstagram/></a>
               <a target="_blank" href="#"><FaYoutube/></a>
-              <a target="_blank" href="#"><AiFillGithub/></a>
+              <a target="_blank" href="#"><AiFillGithub/></a> */}
           </div>
           <div class="btn">
             <a href="./images/SouravMandal_Resume.pdf" download>
