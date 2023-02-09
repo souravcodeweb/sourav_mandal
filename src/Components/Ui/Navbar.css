@@ -22,7 +22,7 @@
   }
   
   .nav-logo {
-    color: #008000;
+    color: #1DA1F2;
     align-items: center;
     margin-left: 20px;
     cursor: pointer;
@@ -70,7 +70,7 @@
   
   .nav-item:hover:after {
     width: 100%;
-    background: #008000;
+    background: #1DA1F2;
   }
   .nav-icon {
     display: none;
@@ -114,6 +114,6 @@
       transform: translate(-100%, 60%);
       font-size: 1.8rem;
       cursor: pointer;
-      color: #008000;
+      color: #1DA1F2;
     }
   }
