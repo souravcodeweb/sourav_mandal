@@ -66,8 +66,8 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 400px;
-    height: 400px;
+    width: 340px;
+    height: 340px;
     background: rgba(0,0,0,0.6) url(../../images/homeimg.jpg);
     background-blend-mode: darken;
     background-size: cover;
@@ -76,8 +76,8 @@ section{
     border-radius: 30px;
 }
 .home .img img{
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
     margin-top: 50px;
     border-radius: 10px;
 }
