@@ -66,8 +66,8 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     background: rgba(0,0,0,0.6) url(../../images/homeimg.jpg);
     background-blend-mode: darken;
     background-size: cover;
