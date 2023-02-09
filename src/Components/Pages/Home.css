@@ -1,11 +1,11 @@
 section{
-    padding: 150px 12%;
+    padding: 150px 6%;
 }
 
 
 .home{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
