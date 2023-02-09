@@ -38,29 +38,29 @@ section{
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid #008000;
-    font-size: 18px;
-    color: var(--text-color);
+    font-size: 22px;
     margin-right: 15px;
     margin-bottom: 30px;
     transition: ease .3s;
 }
-.socil-links a:hover{
-    background-color: #008000;
-    color: var(--bg-color);
-}
+
 .btn a{
     padding: 10px 40px;
     border-radius: 30px;
-    border: 2px solid #008000;
-    background-color: var(--bg-color);
-    color: var(--text-color);
+    border-bottom: 2px solid #1DA1F2;
+    border-right: 2px solid #FF0000;
+    border-top: 2px solid #0E76A8;
+    border-left: 2px solid #C13584;
+    background-color: #fff;
+    color: #000;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: bold;
     transition: all 0.3s;
+    text-decoration: none;
 }
 .btn a:hover{
-    border: 2px solid var(--main-color);
-    color: var(--bg-color);
-    background-color: var(--main-color);
+    padding: 10px 60px;
 }
 .home .img img{
     width: 300px;
@@ -69,77 +69,43 @@ section{
     border-radius: 10px;
 }
 
-
-/* this is about page css */
-
-/* #about{
-    padding: 90px 10%;
-} */
-/* 
-@media (max-width: 414px){
-    #about{
-        padding: 10px 2%;
-    }
-} */
-.about{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.socil-links .twitter{
+    color: #1DA1F2;
+    border: 2px solid #1DA1F2;
 }
-.about .heading h1{
-    font-size: 35px;
-    font-weight: 500;
-    margin-bottom: 20px;
-    position: relative;
-    text-align: center;
+.socil-links .twitter:hover{
+    background-color: #1DA1F2;
+    color: #fff;
 }
-.about .heading span{
-    color: var(--main-color);
+.socil-links .linkedin{
+    color: #0E76A8;
+    border: 2px solid #0E76A8;
 }
-.about .heading h1::after{
-    content: "";
-    position: absolute;
-    width: 10vw;
-    border-bottom: 3px solid var(--main-color);
-    left: 50%;
-    bottom: 0%;
-    transform: translateX(-50%);
+.socil-links .linkedin:hover{
+    background-color: #0E76A8;
+    color: #fff;
 }
-.about .heading p{
-    font-weight: bold;
-    font-size: 20px;
-    color: var(--text-color);
+.socil-links .instagram{
+    color: #C13584;
+    border: 2px solid #C13584;
 }
-
-.about .text{
-    text-align: justify;
-    margin-top: 20px;
-    height: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.socil-links .instagram:hover{
+    background-color: #C13584;
+    color: #fff;
 }
-.about .text .img{
-    width: 350px;
-    height: 350px;
-    border-radius: 10%;
+.socil-links .youtube{
+    color: #FF0000;
+    border: 2px solid #FF0000;
 }
-.about .text p{
-    font-size: 16px;
-    margin-bottom: 20px;
-    font-family: 'Poppins', sans-serif;
-    width: 350px;
+.socil-links .youtube:hover{
+    background-color: #FF0000;
+    color: #fff;
 }
-
-
-@media (max-width: 500px){
-    .about .text {
-        flex-wrap: wrap;
-    }
-    .about .text img{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+.socil-links .github{
+    color: #171515;
+    border: 2px solid #171515;
+}
+.socil-links .github:hover{
+    background-color: #171515;
+    color: #fff;
 }

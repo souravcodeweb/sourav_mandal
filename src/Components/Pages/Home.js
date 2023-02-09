@@ -17,33 +17,28 @@ const data = {
 const Home = () => {
   return (
     <section>
-      <div class="home">
-        <div class="text">
+      <div className="home">
+        <div className="text">
           <h1>{data.mes}</h1>
           <h2>{data.name}</h2>
           <p>
            {data.about}
           </p>
-          <div class="socil-links">
-            <Link to="#"><BsTwitter/></Link>
-            <Link to="#"><FaLinkedinIn/></Link>
-            <Link to="#"><AiOutlineInstagram/></Link>
-            <Link to="#"><FaYoutube/></Link>
-            <Link to="#"><AiFillGithub/></Link>
-              {/* <a target="_blank" href="#"></a>
-              <a target="_blank" href="#"><FaLinkedinIn/></a>
-              <a target="_blank" href="#"><AiOutlineInstagram/></a>
-              <a target="_blank" href="#"><FaYoutube/></a>
-              <a target="_blank" href="#"><AiFillGithub/></a> */}
+          <div className="socil-links">
+            <Link to="#" className="twitter"><BsTwitter/></Link>
+            <Link to="#" className="linkedin"><FaLinkedinIn/></Link>
+            <Link to="#" className="instagram"><AiOutlineInstagram/></Link>
+            <Link to="#" className="youtube"><FaYoutube/></Link>
+            <Link to="#" className="github"><AiFillGithub/></Link>
           </div>
-          <div class="btn">
+          <div className="btn">
             <a href="./images/SouravMandal_Resume.pdf" download>
               My Resume
             </a>
           </div>
         </div>
 
-        <div class="img">
+        <div className="img">
           <img src={homeImg} alt="" />
         </div>
       </div>
