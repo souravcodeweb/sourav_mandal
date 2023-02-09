@@ -8,12 +8,6 @@ section{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    background: rgba(0,0,0,0.6) url(../../images/homeimg.jpg);
-    background-blend-mode: darken;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 30px;
 }
 .home .text{
     width: 350px;
@@ -21,18 +15,18 @@ section{
 .home .text h1{
     font-size: 18px;
     font-weight: 500;
-    color: #fff;
+    color: green;
     margin-bottom: 20px;
 }
 .home .text h2{
     font-size: 35px;
     font-weight: 500;
-    color: #fff;
+    color: #000;
     margin-bottom: 10px;
 }
 .home .text p{
     font-size: 15px;
-    color: #fff;
+    color: #000;
     font-weight: 500;
     margin-bottom: 10px;
     font-family: 'Poppins', sans-serif;
@@ -68,9 +62,22 @@ section{
 .btn a:hover{
     padding: 10px 60px;
 }
+.home .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    background: rgba(0,0,0,0.6) url(../../images/homeimg.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 30px;
+}
 .home .img img{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     margin-top: 50px;
     border-radius: 10px;
 }
